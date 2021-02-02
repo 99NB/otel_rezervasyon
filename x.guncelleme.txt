@@ -1,0 +1,95 @@
+v1.0
+1- Ana sayfa genel hatları ile tasarlandı
+2- Otel ekle sayfası eklendi
+3- Kaydol sayfası eklendi
+4- Giriş yap sayfası eklendi
+
+v1.1
+1- Veritabanı bağlantısı yapıldı
+2- Admin paneli eklendi
+3- Üyeler alanı eklendi
+4- Üye düzeltme eklendi
+5- Oteller alanı eklendi
+6- Css düzenlemeleri yapıldı
+
+v1.1.2
+1- Admin paneline müsteri ve otel silme eklendi (sildikten sonra f5 çekin)
+
+v1.2
+1- Ana sayfada bulunan otel arama bölümü çalışır hale getirildi
+2- Ana sayfada bulunan otel kategori linkleri çalışır hale getirildi
+3- Ana sayfada bulunan "Son Rezervasyonlar" kısmı çalışır hale getirildi ( bir kullanıcı rezervasyon yaptığında otomatik olarak değişir ve eklenir)
+4- Giriş yap bölümü çalışır hale getirildi
+5- Hesabım bölümü çalışır hale getirildi (sadece giriş yapmış olan kullanıcılar girebilir. giriş yapmamış kullanıcı tıkladıgında giriş yap sayfasına yönlendirilir)
+6- Hesabım sayfasında bulunan çıkış yap butonu çalışır hale getirildi (tıklanığına ana sayfaya yönlendirir ve sessionları temizler)
+7- Otel ekle sayfası admin paneline taşındı
+8- Scroll bar düzenlendi
+9- Genel css düzenlenmesi yapıldı
+
+v1.3
+1- Giriş yapan kullanıcının giriş sayfası ve kayıt ol sayfasına girişi engellendi "hesabim.php" sayfasına yönlendirildi
+2- Giriş yapmayan kullanıcının rezervasyon yapması engellendi "giris.php" sayfasına yönlendirildi
+3- Admin Paneli sıfırdan yazıldı
+4- PDO dan MYSQLİ ye geçiş yapıldı
+5- Admin panelinin ana sayfasına -Son Rezervasyonlar -Son Kayıtlar -İstatistikler eklendi
+6- Admin paneline site ayarları eklendi. Eklenen Özellikler;
+	1- Telefon numarası değiştirme
+	2- Eposta değiştirme
+	3- Footerdaki site adresi değiştirme
+	4- Ana sayfadaki 5 adet kategoriyi değiştirme
+	5- Sosyal medya adreslerini değiştirme (sadece kullanıcı adı girmek yeterli)
+7- Otel Ekle bölümü ayrı bir sayfa olarak eklendi
+8- Oda ekle bölümü eklendi
+
+v1.4
+1- Admin paneline siteye git sayfası eklendi tıklandığınızda siteye yönlendirir
+2- Admin paneline otel ekle sayfası eklendi
+3- Admin paneline oda ekle sayfası eklendi
+4- Admin paneline üyeler sayfası eklendi ( bu bölümden kayıtlı kullanıcıları görüntüleyebilir, kullanıcı bilgilerini güncelleyebilir yada kullanıcıyı silebilirsiniz )
+5- Admin paneline oteller sayfası eklendi ( bu bölümden otelleri görüntüleyebilir, otel bilgilerini güncelleyebilir yada otelleri silebilirsiniz )
+6- Admin paneline odalar sayfası eklendi ( bu bölümden odaları görüntüleyebilir, oda bilgilerini güncelleyebilir yada odaları silebilirsiniz )
+7- Admin paneline rezervasyonlar sayfası eklendi ( bu bölümden rezervasyona ait tüm bilgileri görebilir ve silebilirsiniz )
+8- Otel veya oda eklerken seçilen resmin otomatik olarak "resimler" klasörüne eklenmesi işlemi yapıldı
+
+Güncelleme notu= admin panelinde yapılan ekleme, değiştirme veya silme işlemlerinden sonra sayfa yenilenme veya sayfa yönlendirme hatası vardır.
+
+v1.5
+1- Admin paneline galeri sayfası eklendi ( resim yükleyebilirsiniz, yüklü resimleri görebilir yada silebilirsiniz )
+2- Admin paneline giriş sayfası eklendi
+3- Admin yetkisi olmayan kullanıcıların tüm admin sayfalarına girişi engellendi
+4- Admin yetkisine sahip üye ana sayfadan giriş yaptığında otomatik olarak admin paneline yönlendirildi
+5- Footera 21 adet kategori eklendi ( admin panelinde bulunan site ayarlarından değişebilirsiniz )
+6- Bir önceki güncellemede oluşan admin paneli kayıt, değiştirme , silme işleminde sayfa yenilenmeme sorunu düzeltildi
+
+Güncelleme Notu = Veritabanına kayıtlar girilmeye başlandı
+
+v1.6
+1- 120 adet otel girişi yapıldı
+2- 226 adet oda girişi yapıldı
+3- Odalar sayfasında otel adının yanına oda büyüklüğü ve kapasitesi eklendi
+4- Admin paneli tabloların kayması ve scrollbar çıkma sorunu düzeltildi
+5- Veritabanında kullanılmayan tablolar silindi
+6- Oda ya da otel eklerken girilen açıklamanın karakter uzunluğunun veritabanında belirlenen maksimum karakter sayısından fazla olunca kayıt eklemediği için karakter limiti artırıldı ( otel ve ya oda eklediğinizde eklenmiyorsa limitleri aşmıştır )
+
+
+
+
+ADMİN 
+kullanıcı adı = ferhatuzun
+sifre = 123456789
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

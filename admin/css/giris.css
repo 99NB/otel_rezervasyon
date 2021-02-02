@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body,html{
+    height: 100%;
+}
+.ortala{
+    width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 150px;
+}
+#giris{
+    background-color: #3F5555;
+    height: 100%;
+}
+#giris form input{
+    padding: 6px;
+    border-radius: 8px;
+    border: 1px solid rgb(68, 77, 77);
+    margin-bottom: 11px;
+}
+#giris form p{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+#giris button{
+    display: block;
+    padding: 10px 80px;
+    color: #fff;
+    background-color: rgb(54, 49, 49);
+    border: none;
+    border-radius: 10px;
+}
+#giris-kontrol{
+    background-color: #293129;
+    padding: 20px;
+    width: 30%;
+    color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+}
+#giris h4{
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+    margin-bottom: 30px;
+}

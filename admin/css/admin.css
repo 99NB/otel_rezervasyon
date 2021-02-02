@@ -1,0 +1,468 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body,html{
+    height: 100%;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+#menu{
+    background-color: rgb(26, 22, 22);
+    width: 20%;
+    height: 100%;
+    position: fixed;
+}
+.panel_yazisi{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    padding-top: 50px;
+}
+.linkler{
+    padding-top: 100px;
+}
+.linkler a{
+    display: block;
+    width: 50%;
+    text-decoration: none;
+    color: #fff;
+    background-color: rgb(76, 121, 121);
+    padding: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+.linkler ul li{
+    display: block;
+}
+.alt-yazi{
+    color: #fff;
+    text-align: center;
+    padding-top: 200px;
+}
+
+/* icerik */
+#icerik{
+    width: 100%;
+    padding-left: 20%;
+}
+
+/* son rezervasyonlar */
+#son-rezervasyonlar{
+    margin-right: 20px;
+}
+.kart{
+    width:100%;
+    background-color: rgb(63, 85, 85);
+    margin-left: 20px;
+    margin-top: 20px;
+    
+}
+.kart-baslik{
+    font-size: 25px;
+    background-color: rgb(41, 49, 41);
+    color: #fff;
+    padding: 15px;
+}
+.kart-icerik table {
+    color: #fff;
+    padding: 10px;
+}
+.kart-icerik table tr:hover{
+    background-color: rgb(32, 32, 37);
+}
+.kart-icerik table tr th{
+    padding: 10px;
+}
+.kart-icerik table tr td{
+    padding: 5px;
+    padding-left: 10px;
+}
+
+
+/* ayarlar */
+#ayarlar{
+   margin-left: 50px;
+   padding-top: 20px;
+   width: 80%;
+}
+#ayarlar form input{
+    padding: 6px;
+    border-radius: 8px;
+    border: 1px solid rgb(68, 77, 77);
+    margin-bottom: 11px;
+}
+#ayarlar form button{
+    display: block;
+    padding: 10px 80px;
+    color: #fff;
+    background-color: rgb(54, 49, 49);
+    border: none;
+    border-radius: 10px;
+}
+#ayarlar form p{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+/* otel ekle */
+
+#otel-ekle{
+    margin-left: 50px;
+    padding-top: 20px;
+    width: 80%;
+ }
+ #otel-ekle form input{
+     padding: 6px;
+     border-radius: 8px;
+     border: 1px solid rgb(68, 77, 77);
+     margin-bottom: 11px;
+ }
+ #otel-ekle form button{
+     display: block;
+     padding: 10px 80px;
+     color: #fff;
+     background-color: rgb(54, 49, 49);
+     border: none;
+     border-radius: 10px;
+ }
+ #otel-ekle form p{
+     font-size: 20px;
+     margin-bottom: 5px;
+ }
+ /* oda ekle */
+ #oda-ekle{
+    margin-left: 50px;
+    padding-top: 20px;
+    width: 80%;
+ }
+ #oda-ekle form input{
+     padding: 6px;
+     border-radius: 8px;
+     border: 1px solid rgb(68, 77, 77);
+     margin-bottom: 11px;
+ }
+ #oda-ekle form select{
+    padding: 6px;
+    border-radius: 8px;
+    border: 1px solid rgb(68, 77, 77);
+    margin-bottom: 11px;
+}
+ #oda-ekle form button{
+     display: block;
+     padding: 10px 80px;
+     color: #fff;
+     background-color: rgb(54, 49, 49);
+     border: none;
+     border-radius: 10px;
+ }
+ #oda-ekle form p{
+     font-size: 20px;
+     margin-bottom: 5px;
+ }
+
+ /* üyeler */
+#uyeler{
+    padding-left: 50px;
+    padding-top: 50px;
+}
+#uyeler h3{
+    font-size: 30px;
+    margin-bottom: 35px;
+}
+#uyeler table {
+    color: #fff;
+    padding: 10px;
+    background-color: rgb(63, 85, 85);
+}
+#uyeler table tr:hover{
+    background-color: rgb(32, 32, 37);
+}
+#uyeler table tr th{
+    padding: 10px;
+}
+#uyeler table tr td{
+    padding: 5px;
+    padding-left: 10px;
+}
+#uyeler a{
+    color: rgb(129, 0, 0);
+    text-decoration: none;
+    font-weight: 600;
+    transition: 300ms all;
+}
+#uyeler a:hover{
+    color: rgb(216, 1, 1);
+    font-size: 17px;
+}
+
+/* üye düzenle */
+
+#uye-duzenle{
+    margin-left: 50px;
+    padding-top: 20px;
+    width: 80%;
+ }
+ #uye-duzenle form input{
+     padding: 6px;
+     border-radius: 8px;
+     border: 1px solid rgb(68, 77, 77);
+     margin-bottom: 11px;
+ }
+ #uye-duzenle form select{
+    padding: 6px;
+    border-radius: 8px;
+    border: 1px solid rgb(68, 77, 77);
+    margin-bottom: 11px;
+}
+#uye-duzenle button{
+     display: block;
+     padding: 10px 80px;
+     color: #fff;
+     background-color: rgb(54, 49, 49);
+     border: none;
+     border-radius: 10px;
+ }
+ #uye-duzenle form p{
+     font-size: 20px;
+     margin-bottom: 5px;
+ }
+
+/* oteller */
+#oteller{
+    padding-left: 50px;
+    padding-top: 50px;
+    width: 95%;
+}
+#oteller h3{
+    font-size: 30px;
+    margin-bottom: 35px;
+}
+#oteller table {
+    color: #fff;
+    padding: 7px;
+    background-color: rgb(63, 85, 85);
+}
+#oteller table tr:hover{
+    background-color: rgb(32, 32, 37);
+}
+#oteller table tr th{
+    padding: 10dx;
+}
+#oteller table tr td{
+    padding: 5px;
+    padding-left: 10dx;
+}
+#oteller a{
+    color: rgb(129, 0, 0);
+    text-decoration: none;
+    font-weight: 600;
+    transition: 300ms all;
+}
+#oteller a:hover{
+    color: rgb(216, 1, 1);
+    font-size: 17px;
+}
+/* otel düzenle */
+
+#otel-duzenle{
+    margin-left: 50px;
+    padding-top: 20px;
+    width: 80%;
+ }
+ #otel-duzenle form input{
+     padding: 6px;
+     border-radius: 8px;
+     border: 1px solid rgb(68, 77, 77);
+     margin-bottom: 11px;
+ }
+ #otel-duzenle form select{
+    padding: 6px;
+    border-radius: 8px;
+    border: 1px solid rgb(68, 77, 77);
+    margin-bottom: 11px;
+}
+#otel-duzenle button{
+     display: block;
+     padding: 10px 80px;
+     color: #fff;
+     background-color: rgb(54, 49, 49);
+     border: none;
+     border-radius: 10px;
+ }
+ #otel-duzenle form p{
+     font-size: 20px;
+     margin-bottom: 5px;
+ }
+ 
+ /* odalar */
+
+#odalar{
+    padding-left: 20px;
+    padding-top: 50px;
+    width: 95%;
+}
+#odalar h3{
+    font-size: 30px;
+    margin-bottom: 35px;
+}
+#odalar table {
+    color: #fff;
+    padding: 10px;
+    background-color: rgb(63, 85, 85);
+}
+#odalar table tr:hover{
+    background-color: rgb(32, 32, 37);
+}
+#odalar table tr th{
+    padding: 3px;
+}
+#odalar table tr td{
+    padding: 3px;
+    padding-left: 5px;
+}
+#odalar a{
+    color: rgb(129, 0, 0);
+    text-decoration: none;
+    font-weight: 600;
+    transition: 300ms all;
+}
+#odalar a:hover{
+    color: rgb(216, 1, 1);
+    font-size: 17px;
+}
+/* oda düzenle */
+
+#oda-duzenle{
+    margin-left: 50px;
+    padding-top: 20px;
+    width: 80%;
+ }
+ #oda-duzenle form input{
+     padding: 6px;
+     border-radius: 8px;
+     border: 1px solid rgb(68, 77, 77);
+     margin-bottom: 11px;
+ }
+ #oda-duzenle form select{
+    padding: 6px;
+    border-radius: 8px;
+    border: 1px solid rgb(68, 77, 77);
+    margin-bottom: 11px;
+}
+#oda-duzenle button{
+     display: block;
+     padding: 10px 80px;
+     color: #fff;
+     background-color: rgb(54, 49, 49);
+     border: none;
+     border-radius: 10px;
+ }
+ #oda-duzenle form p{
+     font-size: 20px;
+     margin-bottom: 5px;
+ }
+
+ /* rezervasyonlar */
+#rezervasyonlar{
+    padding-left: 50px;
+    padding-top: 50px;
+    width: 95%;
+}
+#rezervasyonlar h3{
+    font-size: 30px;
+    margin-bottom: 35px;
+}
+#rezervasyonlar table {
+    color: #fff;
+    padding: 10px;
+    background-color: rgb(63, 85, 85);
+}
+#rezervasyonlar table tr:hover{
+    background-color: rgb(32, 32, 37);
+}
+#rezervasyonlar table tr th{
+    padding: 10px;
+}
+#rezervasyonlar table tr td{
+    padding: 5px;
+    padding-left: 10px;
+}
+#rezervasyonlar a{
+    color: rgb(129, 0, 0);
+    text-decoration: none;
+    font-weight: 600;
+    transition: 300ms all;
+}
+#rezervasyonlar a:hover{
+    color: rgb(216, 1, 1);
+    font-size: 17px;
+}
+/* galeri */
+#galeri {
+    padding-top: 50px;
+    padding-left: 50px;
+    font-size: 30px;
+}
+#galeri form input{
+    padding: 6px;
+    border-radius: 8px;
+    border: 1px solid rgb(68, 77, 77);
+    margin-bottom: 11px;
+}
+#galeri form p{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+#galeri button{
+    display: block;
+    padding: 10px 80px;
+    color: #fff;
+    background-color: rgb(54, 49, 49);
+    border: none;
+    border-radius: 10px;
+}
+#galeri a{
+    display: inline-block;
+    padding: 3px 80px;
+    color: #fff;
+    background-color: rgb(54, 49, 49);
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    text-decoration: none;
+}
+.galeri-resim{
+    margin-top: 30px;
+    margin-right: 10px;
+    width: 200px;
+    height: 300px;
+    display: inline-block;
+}
+#resimler div{
+    display: inline-block;
+}
+/* scroll bar */
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+   }
+   ::-webkit-scrollbar-thumb {
+    background: linear-gradient(13deg, #202025 14%,#3f5555 64%);
+    border-radius: 10px;
+   }
+   ::-webkit-scrollbar-thumb:hover{
+    background: linear-gradient(13deg, #1a1616 14%,#403d38 64%);
+   }
+   ::-webkit-scrollbar-track{
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: inset 7px 10px 12px #f0f0f0;
+   }

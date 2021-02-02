@@ -1,0 +1,311 @@
+/* VARSAYILAN */
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+.ortala {
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button {
+    border: none;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/* MENÜ */
+
+#menu {
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+
+}
+#logo{
+    margin-top: 10px;
+}
+
+#sayfalar {
+    font-family: 'Andika New Basic', sans-serif;
+}
+
+#sayfalar ul {
+    display: flex;
+}
+
+#sayfalar ul li a {
+    color: #000;
+    font-weight: 600;
+    font-size: 16px;
+    text-decoration: none;
+    margin-left: 15px;
+    transition: all 150ms;
+}
+
+#sayfalar ul li a:hover {
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 18px;
+}
+
+#sayfalar ul li {
+    list-style-type: none;
+}
+
+/* OTEL ARA - SLİDER */
+#ilk {
+    width: 100%;
+    
+    background-color: #ECECEC;
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+
+#otel-ara {
+    background-color: #E74046;
+    color: #fff;
+}
+
+#form {
+    width: 50%;
+    padding: 20px;
+}
+
+#form form input,
+select {
+    height: 35px;
+    width: 100%;
+    border: none;
+}
+
+#form button {
+    padding: 10px;
+    margin-top: 20px;
+    width: 100%;
+    background-color: #0069D9;
+    border: none;
+    color: #fff;
+
+}
+
+/* BİLGİ */
+#bilgi {
+    display: flex;
+    font-family: 'Andika New Basic', sans-serif;
+    background-color: #ECECEC;
+    font-size: 20px;
+    width: 100%;
+    color: #000;
+}
+
+.bilgi {
+    margin-top: 20px;
+}
+
+.sari-cizgi {
+    width: 100%;
+    background-color: #E0A800;
+    padding: 2px;
+    margin-top: 40px;
+    margin-right: 285px;
+}
+
+.kirmizi-cizgi {
+    width: 100%;
+    background-color: #C82333;
+    padding: 2px;
+    margin-top: 40px;
+    margin-right: 285px;
+}
+
+.mavi-cizgi {
+    width: 100%;
+    background-color: #0069D9;
+    padding: 2px;
+    margin-top: 40px;
+    margin-right: 285px;
+}
+
+.yesil-cizgi {
+    width: 100%;
+    background-color: #218838;
+    padding: 2px;
+    margin-top: 40px;
+    margin-right: 285px;
+}
+
+/* KAYIT OL */
+#kayit-ol {
+    background-color: #ECECEC;
+    padding-top: 20px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+}
+
+#kayit-ol a {
+    display: block;
+    background-color: #0069D9;
+    padding: 20px;
+    margin-top: 25%;
+    border-radius: 5px;
+}
+
+.kayit-ol {
+    display: flex;
+    justify-content: space-between;
+    background-color: #01B780;
+    border-radius: 10px;
+    padding: 20px;
+    color: #fff;
+}
+
+/* OTEL-1 */
+
+#otel-1 {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    background-color: #ECECEC;
+}
+
+.otel-1 {
+    background-position: center;
+    background-size: cover;
+    margin-top: 20px;
+    font-size: 60px;
+    padding:100px ;
+    border-radius: 10px;
+}
+.otel-2 {
+    background-position: center;
+    background-size: cover;
+    font-size: 60px;
+    padding:100px ;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+/* rezervasyon */
+#son-rezervasyon {
+    width: 33%;
+    text-align: left;
+    margin-top:20px;
+}
+
+
+
+#son-rezervasyon-yazi {
+    padding: 5px;
+    border-radius: 2px;
+    background-color: #758A96;
+    color: #fff;
+}
+
+.son-rezervasyon-detay-img {
+    width: 150px;
+    height: 75px;
+    border-radius: 10px;
+    margin-right: 5px;
+}
+
+.son-rezervasyon-detay-img img {
+    border-radius: 10px;
+}
+
+.son-rezervasyon-kontrol {
+    margin-top: 10px;
+    background-color: #fff;
+    padding: 10px;
+    border-left: 2px solid gray;
+    font-size: 14px;
+}
+
+/* OTEL-2 */
+#otel-alt{
+    background-color: #ECECEC;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+}
+.otel-alt{
+    background-position: center;
+    background-size: cover;
+    width: 33%;
+    padding: 80px 50px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+.otel-alt:first-child{
+    margin-left: 0;
+}
+
+/* FOOTER */
+#alt {
+    background-color: #153242;
+    padding: 40px;
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+}
+
+#alt p {
+    font-weight: 600;
+}
+
+.musteri-servis {
+    width: 28%;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #455F6D;
+    color: #fff;
+    font-size: 20px;
+}
+
+#alt a {
+    display: block;
+    color: #bbc8ce;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+#alt a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+#telif {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 2px;
+}
+
+/* KAYIT OL */
+
+
+/* scroll bar */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+   }
+   ::-webkit-scrollbar-thumb {
+    background: linear-gradient(13deg, #946000 14%,#ffa600 64%);
+    border-radius: 10px;
+   }
+   ::-webkit-scrollbar-thumb:hover{
+    background: linear-gradient(13deg, #c27f04 14%,#ffb521 64%);
+   }
+   ::-webkit-scrollbar-track{
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: inset 7px 10px 12px #f0f0f0;
+   }
